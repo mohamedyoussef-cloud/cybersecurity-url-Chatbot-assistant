@@ -1,0 +1,15 @@
+data/
+screenshots/
+*.csv
+*.parquet
+*.zip
+*.log
+.env
+*.pem
+*.key
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/terraform.tfvars
+__pycache__/
