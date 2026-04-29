@@ -1,15 +1,30 @@
+# Data and large files
 data/
-screenshots/
 *.csv
 *.parquet
 *.zip
-*.log
+*.safetensors
+*.gguf
+*.bin
+
+# Secrets
 .env
 *.pem
 *.key
+terraform/terraform.tfvars
+terraform/*.tfstate
+terraform/*.tfstate.backup
+
+# Terraform
 terraform/.terraform/
 terraform/.terraform.lock.hcl
-terraform/terraform.tfstate
-terraform/terraform.tfstate.backup
-terraform/terraform.tfvars
+
+# Python
 __pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Screenshots local only
+screenshots/
